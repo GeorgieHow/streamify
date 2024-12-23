@@ -1,4 +1,17 @@
-<div *ngIf="movie">
-    <h2>{{ movie.title }}</h2>
-    <p>{{ movie.description }}</p>
+<div class="movie-details-container">
+
+
+    <h2>{{ movie?.title }} - <i>{{ movie?.releaseYear }}</i></h2>
+    <p class="movie-title">Directed by: <i>{{ movie?.director }}</i></p>
+    <p class="movie-info">Genre: <i>{{ movie?.genre }}</i></p>
+
+    <div class="movie-description">
+        <p>{{ movie?.description }}</p>
+    </div>
+
+    <div class="rating">
+        <p>Rating: <span class="movie-rating">{{ movie?.rating }}</span></p>
+    </div>
+    <br>
+    <button (click)="goBack()" class="back-btn">Back to Movies</button>
 </div>

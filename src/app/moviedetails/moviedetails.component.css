@@ -1,0 +1,90 @@
+.movie-details-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .movie-details-container h2 {
+    font-size: 2rem;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .movie-details-container i {
+    color: #9c27b0; 
+  }
+  
+  .movie-details-container p {
+    font-size: 1rem;
+    color: #555; 
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .movie-details-container .rating {
+    font-size: 1.2rem;
+    color: #9c27b0; 
+    font-weight: bold;
+  }
+  
+  .movie-details-container .movie-description {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .movie-details-container .movie-description p {
+    color: #757575;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .movie-details-container .director-genre {
+    margin-top: 20px;
+  }
+  
+  .movie-details-container .director-genre p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .movie-details-container .movie-info {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .movie-details-container .movie-title {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .movie-details-container .movie-rating {
+    background-color: #9c27b0;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 1rem;
+  }
+
+  .back-btn {
+    background-color: #9c27b0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px; 
+  }
+  
+  .back-btn:hover {
+    background-color: #7a1b8b; 
+  }
