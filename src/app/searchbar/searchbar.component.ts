@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-searchbar',
@@ -8,9 +8,16 @@ import { Component } from '@angular/core';
   styleUrl: './searchbar.component.css'
 })
 export class SearchbarComponent {
-  selectedSearchTerm: string = 'Change Search Term';
+  selectedSearchTerm: string = 'title';
+  searchQuery: string = ''; 
+
+  @Output() searchTermChanged = new EventEmitter<{ term: string, query: string }>();
 
   changeSearchTerm(term: string): void {
-    this.selectedSearchTerm = term;
+    this.selectedSearchTerm = term.toLowerCase();
+  }
+
+  onSearch(): void {
+    this.searchTermChanged.emit({ term: this.selectedSearchTerm, query: this.searchQuery });
   }
 }

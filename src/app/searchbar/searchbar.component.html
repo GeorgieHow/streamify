@@ -10,7 +10,8 @@
         </ul>
     </div>
     <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Enter search term here..." aria-label="Search">
-        <button class="btn btn-primary" type="button">Search</button>
+        <input type="text" [(ngModel)]="searchQuery" class="form-control" placeholder="Enter search term here..."
+            aria-label="Search">
+        <button class="btn btn-primary" type="button" (click)="onSearch()">Search</button>
     </div>
 </div>
