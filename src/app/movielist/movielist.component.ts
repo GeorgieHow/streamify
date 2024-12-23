@@ -39,4 +39,8 @@ export class MovielistComponent implements OnInit {
       return movieValue && movieValue.includes(query.toLowerCase());
     });
   }
+
+  goToMovieDetails(id: string): void {
+    this.router.navigate([`/movie/${id}`]);
+  }
 }

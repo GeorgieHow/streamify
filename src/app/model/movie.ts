@@ -4,5 +4,6 @@ export interface Movie {
     genre: string,
     releaseYear: Number,
     director: string,
-    rating: Number
+    rating: Number,
+    description: string
 }

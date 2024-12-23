@@ -9,6 +9,7 @@ import { MovielistComponent } from './movielist/movielist.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MovieComponent } from './movie/movie.component';
 import { FormsModule } from '@angular/forms';
+import { MoviedetailsComponent } from './moviedetails/moviedetails.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     SearchbarComponent,
     MovielistComponent,
-    MovieComponent
+    MovieComponent,
+    MoviedetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -42,3 +42,20 @@
 .movie p:last-child {
     align-self: flex-end; 
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;               
+  }
+  
+  .custom-btn {
+    background-color: #9c27b0;  
+    color: white;
+    border: none;
+    padding: 10px 20px;         
+  }
+  
+  .custom-btn:hover {
+    background-color: #7a1b8b;  
+  }

@@ -17,7 +17,8 @@ export class MovieComponent {
       genre: '',
       releaseYear: 0,
       director: '',
-      rating: 0
+      rating: 0,
+      description: ''
     }
   }
 }
