@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './searchbar.component.css'
 })
 export class SearchbarComponent {
+  selectedSearchTerm: string = 'Change Search Term';
 
+  changeSearchTerm(term: string): void {
+    this.selectedSearchTerm = term;
+  }
 }

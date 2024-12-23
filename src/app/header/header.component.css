@@ -5,10 +5,12 @@
 .navbar .navbar-brand {
     font-size: 1.5rem; 
     font-weight: bold;
-    background-image: linear-gradient(to bottom, white, #9c27b0); 
+    background-image: linear-gradient(90deg, white, #9c27b0, white); 
     -webkit-background-clip: text; 
     background-clip: text; 
     color: transparent;
+    background-size: 200%;
+    background-position: 0% 50%;
 }
 
 .navbar .navbar-nav .nav-link {
