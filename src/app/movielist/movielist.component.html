@@ -1,1 +1,8 @@
-<p>movielist works!</p>
+<div *ngIf="movies.length > 0">
+    <div *ngFor="let movie of movies">
+        <app-movie [movie]="movie"></app-movie>
+    </div>
+</div>
+<div class="container" *ngIf="movies.length <= 0">
+    <h1>No movies have been added yet!</h1>
+</div>

@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center; 
     align-items: flex-start; 
-    width: 200rem;
+    width: 100%;
     padding: 1rem 0;
   }
   
   .input-group {
-    max-width: 600px; 
+    max-width: 1000px; 
     width: 100%;
   }
   

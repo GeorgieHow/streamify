@@ -1,213 +1,238 @@
 {
-    "movies": [
-      {
-        "id": "1",
-        "title": "Inception",
-        "genre": "Science Fiction",
-        "releaseYear": 2010,
-        "director": "Christopher Nolan",
-        "rating": 8.8
-      },
-      {
-        "id": "2",
-        "title": "The Shawshank Redemption",
-        "genre": "Drama",
-        "releaseYear": 1994,
-        "director": "Frank Darabont",
-        "rating": 9.3
-      },
-      {
-        "id": "3",
-        "title": "The Godfather",
-        "genre": "Crime",
-        "releaseYear": 1972,
-        "director": "Francis Ford Coppola",
-        "rating": 9.2
-      },
-      {
-        "id": "4",
-        "title": "The Dark Knight",
-        "genre": "Action",
-        "releaseYear": 2008,
-        "director": "Christopher Nolan",
-        "rating": 9.0
-      },
-      {
-        "id": "5",
-        "title": "Pulp Fiction",
-        "genre": "Crime",
-        "releaseYear": 1994,
-        "director": "Quentin Tarantino",
-        "rating": 8.9
-      },
-      {
-        "id": "6",
-        "title": "Forrest Gump",
-        "genre": "Drama",
-        "releaseYear": 1994,
-        "director": "Robert Zemeckis",
-        "rating": 8.8
-      },
-      {
-        "id": "7",
-        "title": "The Matrix",
-        "genre": "Science Fiction",
-        "releaseYear": 1999,
-        "director": "The Wachowskis",
-        "rating": 8.7
-      },
-      {
-        "id": "8",
-        "title": "Avengers: Endgame",
-        "genre": "Superhero",
-        "releaseYear": 2019,
-        "director": "Anthony and Joe Russo",
-        "rating": 8.4
-      },
-      {
-        "id": "9",
-        "title": "Parasite",
-        "genre": "Thriller",
-        "releaseYear": 2019,
-        "director": "Bong Joon Ho",
-        "rating": 8.6
-      },
-      {
-        "id": "10",
-        "title": "Spirited Away",
-        "genre": "Animation",
-        "releaseYear": 2001,
-        "director": "Hayao Miyazaki",
-        "rating": 8.6
-      },
-      {
-        "id": "11",
-        "title": "Barbie",
-        "genre": "Fantasy",
-        "releaseYear": 2023,
-        "director": "Greta Gerwig",
-        "rating": 7.2
-      },
-      {
-        "id": "12",
-        "title": "Kung Fu Panda",
-        "genre": "Comedy",
-        "releaseYear": 2008,
-        "director": "Mark Osbourne",
-        "rating": 7.6
-      },
-      {
-        "id": "13",
-        "title": "28 Days Later",
-        "genre": "Horror",
-        "releaseYear": 2002,
-        "director": "Danny Boyle",
-        "rating": 7.5
-      },
-      {
-        "id": "14",
-        "title": "Interstellar",
-        "genre": "Science Fiction",
-        "releaseYear": 2014,
-        "director": "Christopher Nolan",
-        "rating": 8.6
-      },
-      {
-        "id": "15",
-        "title": "Blade Runner 2049",
-        "genre": "Science Fiction",
-        "releaseYear": 2017,
-        "director": "Denis Villeneuve",
-        "rating": 8.0
-      },
-      {
-        "id": "16",
-        "title": "Whiplash",
-        "genre": "Drama",
-        "releaseYear": 2014,
-        "director": "Damien Chazelle",
-        "rating": 8.5
-      },
-      {
-        "id": "17",
-        "title": "The Godfather Part II",
-        "genre": "Crime",
-        "releaseYear": 1974,
-        "director": "Francis Ford Coppola",
-        "rating": 9.0
-      },
-      {
-        "id": "18",
-        "title": "John Wick",
-        "genre": "Action",
-        "releaseYear": 2014,
-        "director": "Chad Stahelski",
-        "rating": 7.4
-      },
-      {
-        "id": "19",
-        "title": "Mad Max: Fury Road",
-        "genre": "Action",
-        "releaseYear": 2015,
-        "director": "George Miller",
-        "rating": 8.1
-      },
-      {
-        "id": "20",
-        "title": "Reservoir Dogs",
-        "genre": "Crime",
-        "releaseYear": 1992,
-        "director": "Quentin Tarantino",
-        "rating": 8.3
-      },
-      {
-        "id": "21",
-        "title": "Shrek",
-        "genre": "Animation",
-        "releaseYear": 2001,
-        "director": "Andrew Adamson",
-        "rating": 7.9
-      },
-      {
-        "id": "22",
-        "title": "The Lion King",
-        "genre": "Animation",
-        "releaseYear": 1994,
-        "director": "Roger Allers",
-        "rating": 8.5
-      },
-      {
-        "id": "23",
-        "title": "The Conjuring",
-        "genre": "Horror",
-        "releaseYear": 2013,
-        "director": "James Wan",
-        "rating": 7.5
-      },
-      {
-        "id": "24",
-        "title": "Hereditary",
-        "genre": "Horror",
-        "releaseYear": 2018,
-        "director": "Ari Aster",
-        "rating": 7.3
-      },
-      {
-        "id": "25",
-        "title": "The Hobbit: An Unexpected Journey",
-        "genre": "Fantasy",
-        "releaseYear": 2012,
-        "director": "Peter Jackson",
-        "rating": 7.8
-      },
-      {
-        "id": "26",
-        "title": "Pan's Labyrinth",
-        "genre": "Fantasy",
-        "releaseYear": 2006,
-        "director": "Guillermo del Toro",
-        "rating": 8.2
-      }
-    ]
-  }
-  
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "genre": "Science Fiction",
+      "releaseYear": 2010,
+      "director": "Christopher Nolan",
+      "rating": 8.8,
+      "description": "A skilled thief who specializes in stealing secrets through the use of dream-sharing technology is tasked with planting an idea into the mind of a CEO, leading to a mind-bending heist that challenges reality itself."
+    },
+    {
+      "id": "2",
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "releaseYear": 1994,
+      "director": "Frank Darabont",
+      "rating": 9.3,
+      "description": "A man wrongfully convicted of murder forms a friendship with a fellow inmate, and together they endure the hardships of prison life while planning an elaborate escape."
+    },
+    {
+      "id": "3",
+      "title": "The Godfather",
+      "genre": "Crime",
+      "releaseYear": 1972,
+      "director": "Francis Ford Coppola",
+      "rating": 9.2,
+      "description": "The powerful Corleone crime family faces a dangerous transformation as Michael, the youngest son, reluctantly gets involved in the family business, navigating betrayal, loyalty, and the price of power."
+    },
+    {
+      "id": "4",
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "releaseYear": 2008,
+      "director": "Christopher Nolan",
+      "rating": 9.0,
+      "description": "Batman faces his greatest challenge when a criminal mastermind known as the Joker emerges, pushing Gotham to the brink of anarchy and testing the limits of Batman's moral code."
+    },
+    {
+      "id": "5",
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "releaseYear": 1994,
+      "director": "Quentin Tarantino",
+      "rating": 8.9,
+      "description": "The intertwining stories of crime and redemption in Los Angeles unfold in a nonlinear narrative, where hitmen, a boxer, and a couple find themselves entangled in a world of violence, drugs, and chance encounters."
+    },
+    {
+      "id": "6",
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "releaseYear": 1994,
+      "director": "Robert Zemeckis",
+      "rating": 8.8,
+      "description": "The life of a slow-witted but kind-hearted man unfolds against the backdrop of historical events, showing how he inadvertently influences major moments in American history, from the Vietnam War to the Watergate scandal."
+    },
+    {
+      "id": "7",
+      "title": "The Matrix",
+      "genre": "Science Fiction",
+      "releaseYear": 1999,
+      "director": "The Wachowskis",
+      "rating": 8.7,
+      "description": "A hacker learns that reality as he knows it is a simulated construct controlled by machines, and he is chosen to lead a rebellion against the system to free humanity."
+    },
+    {
+      "id": "8",
+      "title": "Avengers: Endgame",
+      "genre": "Superhero",
+      "releaseYear": 2019,
+      "director": "Anthony and Joe Russo",
+      "rating": 8.4,
+      "description": "After the devastating events of 'Infinity War,' the remaining Avengers work together to undo the destruction caused by Thanos, culminating in a final battle to save the universe."
+    },
+    {
+      "id": "9",
+      "title": "Parasite",
+      "genre": "Thriller",
+      "releaseYear": 2019,
+      "director": "Bong Joon Ho",
+      "rating": 8.6,
+      "description": "A poor family cunningly infiltrates the lives of a wealthy family, leading to a series of events that reveal the stark class divide and result in shocking consequences."
+    },
+    {
+      "id": "10",
+      "title": "Spirited Away",
+      "genre": "Animation",
+      "releaseYear": 2001,
+      "director": "Hayao Miyazaki",
+      "rating": 8.6,
+      "description": "A young girl finds herself trapped in a mysterious and magical world of spirits and creatures after her parents are transformed into pigs, and she must work to save them and find a way back home."
+    },
+    {
+      "id": "11",
+      "title": "Barbie",
+      "genre": "Fantasy",
+      "releaseYear": 2023,
+      "director": "Greta Gerwig",
+      "rating": 7.2,
+      "description": "Barbie embarks on an existential journey from her perfect world in Barbie Land to the real world, discovering who she is and questioning her place in a society that holds unrealistic expectations."
+    },
+    {
+      "id": "12",
+      "title": "Kung Fu Panda",
+      "genre": "Comedy",
+      "releaseYear": 2008,
+      "director": "Mark Osbourne",
+      "rating": 7.6,
+      "description": "A clumsy and overweight panda is unexpectedly chosen to become a kung fu master, and must train with the Furious Five to defeat a formidable villain and fulfill his destiny."
+    },
+    {
+      "id": "13",
+      "title": "28 Days Later",
+      "genre": "Horror",
+      "releaseYear": 2002,
+      "director": "Danny Boyle",
+      "rating": 7.5,
+      "description": "After a viral outbreak turns people into violent, rage-fueled zombies, a group of survivors struggles to find safety and humanity in a desolate post-apocalyptic world."
+    },
+    {
+      "id": "14",
+      "title": "Interstellar",
+      "genre": "Science Fiction",
+      "releaseYear": 2014,
+      "director": "Christopher Nolan",
+      "rating": 8.6,
+      "description": "As Earth faces an environmental collapse, a group of astronauts journeys through a wormhole in search of a new habitable planet, facing time dilation and existential dilemmas along the way."
+    },
+    {
+      "id": "15",
+      "title": "Blade Runner 2049",
+      "genre": "Science Fiction",
+      "releaseYear": 2017,
+      "director": "Denis Villeneuve",
+      "rating": 8.0,
+      "description": "A new blade runner uncovers long-buried secrets about the origins of replicants, leading to a journey that could change the future of humanity and artificial life forever."
+    },
+    {
+      "id": "16",
+      "title": "Whiplash",
+      "genre": "Drama",
+      "releaseYear": 2014,
+      "director": "Damien Chazelle",
+      "rating": 8.5,
+      "description": "An ambitious young jazz drummer is pushed to his limits by an abusive and demanding instructor, exploring the cost of greatness and the pursuit of perfection."
+    },
+    {
+      "id": "17",
+      "title": "The Godfather Part II",
+      "genre": "Crime",
+      "releaseYear": 1974,
+      "director": "Francis Ford Coppola",
+      "rating": 9.0,
+      "description": "The story continues as Michael Corleone struggles to expand the family's criminal empire while reflecting on his father's rise to power, further exploring themes of betrayal, loyalty, and corruption."
+    },
+    {
+      "id": "18",
+      "title": "John Wick",
+      "genre": "Action",
+      "releaseYear": 2014,
+      "director": "Chad Stahelski",
+      "rating": 7.4,
+      "description": "After the death of his beloved dog, a retired hitman is pulled back into the violent world he left behind, seeking revenge against those who wronged him, setting off a relentless pursuit."
+    },
+    {
+      "id": "19",
+      "title": "Mad Max: Fury Road",
+      "genre": "Action",
+      "releaseYear": 2015,
+      "director": "George Miller",
+      "rating": 8.1,
+      "description": "In a post-apocalyptic wasteland, Max teams up with Furiosa, a rebellious woman seeking to escape a tyrannical warlord, in a high-octane, action-packed chase for survival."
+    },
+    {
+      "id": "20",
+      "title": "Reservoir Dogs",
+      "genre": "Crime",
+      "releaseYear": 1992,
+      "director": "Quentin Tarantino",
+      "rating": 8.3,
+      "description": "After a botched diamond heist, a group of criminals turns on each other, unsure of who betrayed them, as the tension mounts in a series of explosive confrontations."
+    },
+    {
+      "id": "21",
+      "title": "Shrek",
+      "genre": "Animation",
+      "releaseYear": 2001,
+      "director": "Andrew Adamson",
+      "rating": 7.9,
+      "description": "A grumpy, green ogre embarks on a quest to rescue Princess Fiona, only to discover that he is more than just an outsider, finding love and friendship in the process."
+    },
+    {
+      "id": "22",
+      "title": "The Lion King",
+      "genre": "Animation",
+      "releaseYear": 1994,
+      "director": "Roger Allers",
+      "rating": 8.5,
+      "description": "A young lion prince named Simba must overcome his fears and embrace his destiny to become king, after the tragic death of his father and the betrayal of his uncle."
+    },
+    {
+      "id": "23",
+      "title": "The Conjuring",
+      "genre": "Horror",
+      "releaseYear": 2013,
+      "director": "James Wan",
+      "rating": 7.5,
+      "description": "Based on true events, paranormal investigators Ed and Lorraine Warren are called to help a family plagued by disturbing supernatural occurrences in their rural farmhouse."
+    },
+    {
+      "id": "24",
+      "title": "Hereditary",
+      "genre": "Horror",
+      "releaseYear": 2018,
+      "director": "Ari Aster",
+      "rating": 7.3,
+      "description": "A family's dark secrets are revealed after the death of the matriarch, leading to a series of horrifying events that uncover the disturbing truth about their lineage."
+    },
+    {
+      "id": "25",
+      "title": "The Hobbit: An Unexpected Journey",
+      "genre": "Fantasy",
+      "releaseYear": 2012,
+      "director": "Peter Jackson",
+      "rating": 7.8,
+      "description": "Bilbo Baggins, a reluctant hobbit, is swept into an adventure with a group of dwarves to reclaim their homeland from a fearsome dragon, encountering danger and mythical creatures along the way."
+    },
+    {
+      "id": "26",
+      "title": "Pan's Labyrinth",
+      "genre": "Fantasy",
+      "releaseYear": 2006,
+      "director": "Guillermo del Toro",
+      "rating": 8.2,
+      "description": "In post-Civil War Spain, a young girl escapes the harsh realities of life through a magical labyrinth, where she meets a faun who gives her three dangerous tasks to prove her worth."
+    }
+  ]
+}
