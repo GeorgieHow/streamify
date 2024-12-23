@@ -1,0 +1,213 @@
+{
+    "movies": [
+      {
+        "id": "1",
+        "title": "Inception",
+        "genre": "Science Fiction",
+        "releaseYear": 2010,
+        "director": "Christopher Nolan",
+        "rating": 8.8
+      },
+      {
+        "id": "2",
+        "title": "The Shawshank Redemption",
+        "genre": "Drama",
+        "releaseYear": 1994,
+        "director": "Frank Darabont",
+        "rating": 9.3
+      },
+      {
+        "id": "3",
+        "title": "The Godfather",
+        "genre": "Crime",
+        "releaseYear": 1972,
+        "director": "Francis Ford Coppola",
+        "rating": 9.2
+      },
+      {
+        "id": "4",
+        "title": "The Dark Knight",
+        "genre": "Action",
+        "releaseYear": 2008,
+        "director": "Christopher Nolan",
+        "rating": 9.0
+      },
+      {
+        "id": "5",
+        "title": "Pulp Fiction",
+        "genre": "Crime",
+        "releaseYear": 1994,
+        "director": "Quentin Tarantino",
+        "rating": 8.9
+      },
+      {
+        "id": "6",
+        "title": "Forrest Gump",
+        "genre": "Drama",
+        "releaseYear": 1994,
+        "director": "Robert Zemeckis",
+        "rating": 8.8
+      },
+      {
+        "id": "7",
+        "title": "The Matrix",
+        "genre": "Science Fiction",
+        "releaseYear": 1999,
+        "director": "The Wachowskis",
+        "rating": 8.7
+      },
+      {
+        "id": "8",
+        "title": "Avengers: Endgame",
+        "genre": "Superhero",
+        "releaseYear": 2019,
+        "director": "Anthony and Joe Russo",
+        "rating": 8.4
+      },
+      {
+        "id": "9",
+        "title": "Parasite",
+        "genre": "Thriller",
+        "releaseYear": 2019,
+        "director": "Bong Joon Ho",
+        "rating": 8.6
+      },
+      {
+        "id": "10",
+        "title": "Spirited Away",
+        "genre": "Animation",
+        "releaseYear": 2001,
+        "director": "Hayao Miyazaki",
+        "rating": 8.6
+      },
+      {
+        "id": "11",
+        "title": "Barbie",
+        "genre": "Fantasy",
+        "releaseYear": 2023,
+        "director": "Greta Gerwig",
+        "rating": 7.2
+      },
+      {
+        "id": "12",
+        "title": "Kung Fu Panda",
+        "genre": "Comedy",
+        "releaseYear": 2008,
+        "director": "Mark Osbourne",
+        "rating": 7.6
+      },
+      {
+        "id": "13",
+        "title": "28 Days Later",
+        "genre": "Horror",
+        "releaseYear": 2002,
+        "director": "Danny Boyle",
+        "rating": 7.5
+      },
+      {
+        "id": "14",
+        "title": "Interstellar",
+        "genre": "Science Fiction",
+        "releaseYear": 2014,
+        "director": "Christopher Nolan",
+        "rating": 8.6
+      },
+      {
+        "id": "15",
+        "title": "Blade Runner 2049",
+        "genre": "Science Fiction",
+        "releaseYear": 2017,
+        "director": "Denis Villeneuve",
+        "rating": 8.0
+      },
+      {
+        "id": "16",
+        "title": "Whiplash",
+        "genre": "Drama",
+        "releaseYear": 2014,
+        "director": "Damien Chazelle",
+        "rating": 8.5
+      },
+      {
+        "id": "17",
+        "title": "The Godfather Part II",
+        "genre": "Crime",
+        "releaseYear": 1974,
+        "director": "Francis Ford Coppola",
+        "rating": 9.0
+      },
+      {
+        "id": "18",
+        "title": "John Wick",
+        "genre": "Action",
+        "releaseYear": 2014,
+        "director": "Chad Stahelski",
+        "rating": 7.4
+      },
+      {
+        "id": "19",
+        "title": "Mad Max: Fury Road",
+        "genre": "Action",
+        "releaseYear": 2015,
+        "director": "George Miller",
+        "rating": 8.1
+      },
+      {
+        "id": "20",
+        "title": "Reservoir Dogs",
+        "genre": "Crime",
+        "releaseYear": 1992,
+        "director": "Quentin Tarantino",
+        "rating": 8.3
+      },
+      {
+        "id": "21",
+        "title": "Shrek",
+        "genre": "Animation",
+        "releaseYear": 2001,
+        "director": "Andrew Adamson",
+        "rating": 7.9
+      },
+      {
+        "id": "22",
+        "title": "The Lion King",
+        "genre": "Animation",
+        "releaseYear": 1994,
+        "director": "Roger Allers",
+        "rating": 8.5
+      },
+      {
+        "id": "23",
+        "title": "The Conjuring",
+        "genre": "Horror",
+        "releaseYear": 2013,
+        "director": "James Wan",
+        "rating": 7.5
+      },
+      {
+        "id": "24",
+        "title": "Hereditary",
+        "genre": "Horror",
+        "releaseYear": 2018,
+        "director": "Ari Aster",
+        "rating": 7.3
+      },
+      {
+        "id": "25",
+        "title": "The Hobbit: An Unexpected Journey",
+        "genre": "Fantasy",
+        "releaseYear": 2012,
+        "director": "Peter Jackson",
+        "rating": 7.8
+      },
+      {
+        "id": "26",
+        "title": "Pan's Labyrinth",
+        "genre": "Fantasy",
+        "releaseYear": 2006,
+        "director": "Guillermo del Toro",
+        "rating": 8.2
+      }
+    ]
+  }
+  
