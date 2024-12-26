@@ -54,3 +54,16 @@
 .more-details-btn:hover {
   background-color: #9c27b0;
 }
+
+.movie-container {
+  background-color: #333; 
+  padding: 20px; 
+  margin-bottom: 15px;
+  border-radius: 5px; 
+  color: #fff; 
+}
+
+.movie-container app-movie {
+  display: block; 
+  margin-bottom: 10px; 
+}

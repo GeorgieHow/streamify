@@ -6,8 +6,10 @@
 
 <div *ngIf="filteredMovies.length > 0">
     <div *ngFor="let movie of filteredMovies">
-        <app-movie [movie]="movie"></app-movie>
-        <button (click)="goToMovieDetails(movie.id)" class="btn more-details-btn">More Details</button>
+        <div class="movie-container">
+            <app-movie [movie]="movie"></app-movie>
+            <button (click)="goToMovieDetails(movie.id)" class="btn more-details-btn">More Details</button>
+        </div>
     </div>
 </div>
 <div class="container" *ngIf="filteredMovies.length <= 0">
